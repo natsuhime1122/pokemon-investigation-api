@@ -7,7 +7,8 @@ use App\Models\PokeApiResponse\Utility\CommonModels\NamedAPIResource;
 class VersionGroup
 {
     /**
-     * https://pokeapi.co/api/v2/version-group/{id or name}/からのレスポンス値
+     * APIレスポンス
+     * https://pokeapi.co/api/v2/version-group/{id or name}/
      *
      * @param int $id
      * @param string $name

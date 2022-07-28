@@ -7,6 +7,7 @@ use App\Models\PokeApiResponse\Utility\CommonModels\NamedAPIResource;
 class Generation
 {
     /**
+     * APIレスポンス
      * https://pokeapi.co/api/v2/generation/{id or name}/からのレスポンス値
      *
      * @param int $id

@@ -2,16 +2,19 @@
 
 namespace App\Models\PokeApiResponse\Games;
 
+use App\Models\PokeApiResponse\Utility\CommonModels\Description;
 use App\Models\PokeApiResponse\Utility\CommonModels\Name;
 use App\Models\PokeApiResponse\Utility\CommonModels\NamedAPIResource;
 
 class Pokedexes
 {
     /**
+     * APIレスポンス
+     *
      * @param int $id
      * @param string $name
      * @param bool $is_main_series
-     * @param array<> $descriptions
+     * @param array<Description> $descriptions
      * @param array<Name> $names
      * @param array<PokemonEntry> $pokemon_entries
      * @param NamedAPIResource $region
